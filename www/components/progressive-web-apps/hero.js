@@ -1,101 +1,133 @@
 import Container from '../container';
 import Button from '../button';
-import Checkmark from '../icons/checkmark';
-import Iphone from './svg/iphone'
-import Macbook from './svg/macbook'
-import Ipad from './svg/ipad'
 
 const Bullets = () => (
   <>
     <ul>
       <li>
-        <Checkmark inverse />
+        <amp-img
+          src="/static/checkmark-blue.svg"
+          alt="checkmark"
+          width={28}
+          height={28}
+        />
         <h4>Offline Support</h4>
       </li>
       <li>
-        <Checkmark inverse />
+        <amp-img
+          src="/static/checkmark-blue.svg"
+          alt="checkmark"
+          width={28}
+          height={28}
+        />
         <h4>Instantaneous Page Loads</h4>
       </li>
       <li>
-        <Checkmark inverse />
+        <amp-img
+          src="/static/checkmark-blue.svg"
+          alt="checkmark"
+          width={28}
+          height={28}
+        />
         <h4>Automatic Caching</h4>
       </li>
       <li>
-        <Checkmark inverse />
+        <amp-img
+          src="/static/checkmark-blue.svg"
+          alt="checkmark"
+          width={28}
+          height={28}
+        />
         <h4>Superior Engagement</h4>
       </li>
     </ul>
 
     <style jsx>
-    {`
-      ul {
-        padding: 0 1rem;
-        margin: 0;
-        display: flex;
-        list-style-type: none;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-        max-width: 64rem;
-      }
-    
-      li {
-        display: flex;
-        align-items: center;
-      }
-
-      h4 {
-        margin: 0 0 0 0.5rem;
-      }
-
-      @media screen and (max-width: 1024px) {
+      {`
         ul {
-          width: auto;
-          flex-direction: column;
-          align-items: flex-start;
-          margin: 2.5rem 1rem 2.5rem 1rem;
+          padding: 0 1rem;
+          margin: 0;
+          display: flex;
+          list-style-type: none;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+          max-width: 64rem;
         }
+
         li {
-          margin: 1rem 0;
+          display: flex;
+          align-items: center;
         }
-      }
-    
-      @media screen and (max-width: 760px) {
-        ul {
-          margin: -1rem 1rem 2.5rem 1rem;
+
+        h4 {
+          margin: 0 0 0 0.5rem;
         }
-      }
-    `}
+
+        @media screen and (max-width: 1024px) {
+          ul {
+            width: auto;
+            flex-direction: column;
+            align-items: flex-start;
+            margin: 2.5rem 1rem 2.5rem 1rem;
+          }
+          li {
+            margin: 1rem 0;
+          }
+        }
+
+        @media screen and (max-width: 760px) {
+          ul {
+            margin: -1rem 1rem 2.5rem 1rem;
+          }
+        }
+      `}
     </style>
   </>
-)
+);
 
 export default () => (
   <>
-  <Container wide padding center dotBackground>
-    <h1>Progressive Web Apps Made Easy</h1>
+    <Container wide padding center dotBackground>
+      <h1>Progressive Web Apps Made Easy</h1>
 
-    <div className="content">
-      <p>
-        With <b>Next.js</b>, fully featured PWA's <br /> are only a few clicks away.
-      </p>
-    </div>
-
-    <Button invert href="#offline-support">
-      Learn More
-    </Button>
-  </Container>
-  <Container wide dark center>
-    <div className="col">
-      <Bullets />    
-
-      <div className="devices">
-        <Ipad />
-        <Macbook />
-        <Iphone />
+      <div className="content">
+        <p>
+          With <b>Next.js</b>, fully featured PWA's <br /> are only a few clicks
+          away.
+        </p>
       </div>
-    </div>
-  </Container>
+
+      <Button invert href="#offline-support">
+        Learn More
+      </Button>
+    </Container>
+    <Container wide dark center>
+      <div className="col">
+        <Bullets />
+
+        <div className="devices">
+          <amp-img
+            src="/static/tablet.svg"
+            alt="Tablet"
+            width={160}
+            height={220}
+          />
+          <amp-img
+            src="/static/desktop.svg"
+            alt="Desktop"
+            width={526.6}
+            height={270}
+          />
+          <amp-img
+            src="/static/mobile.svg"
+            alt="Mobile"
+            width={84}
+            height={170}
+          />
+        </div>
+      </div>
+    </Container>
 
     <style jsx>
       {`

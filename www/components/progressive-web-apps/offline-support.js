@@ -1,27 +1,36 @@
 import Container from '../container';
-import SectionHeader from '../section-header'
-import OfflineSupport from './svg/offline-support'
-import Wifi from './svg/wifi'
+import SectionHeader from '../section-header';
+import Wifi from './svg/wifi';
 
 export default () => (
   <Container wide center>
-    <SectionHeader anchor="offline-support" title="Offline Support" margin="4rem 0 0 0" />
+    <SectionHeader
+      anchor="offline-support"
+      title="Offline Support"
+      margin="4rem 0 0 0"
+    />
 
     <div className="content">
       <p>
-        Unreliable network connections are an unavoidable reality on the mobile web. 
-        But that doesn't mean they need to disrupt your users. Progressive web apps 
-        leverage modern web technologies to provide offline support so your app never goes down.
+        Unreliable network connections are an unavoidable reality on the mobile
+        web. But that doesn't mean they need to disrupt your users. Progressive
+        web apps leverage modern web technologies to provide offline support so
+        your app never goes down.
       </p>
     </div>
 
     <div className="device">
-      <OfflineSupport />
+      <amp-img
+        src="/static/offline-support.svg"
+        alt="Offline support"
+        width={632}
+        height={204}
+      />
       <div className="wifi">
         <Wifi />
       </div>
     </div>
-    
+
     <style jsx>{`
       a {
         display: none;
