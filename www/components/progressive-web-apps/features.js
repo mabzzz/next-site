@@ -9,8 +9,8 @@ const Bullets = () => (
           <amp-img
             src="/static/svg/checkmark-blue.svg"
             alt="checkmark"
-            width={28}
-            height={28}
+            width={36}
+            height={36}
           />
           <h4>Full Screen Support</h4>
         </li>
@@ -18,8 +18,8 @@ const Bullets = () => (
           <amp-img
             src="/static/svg/checkmark-blue.svg"
             alt="checkmark"
-            width={28}
-            height={28}
+            width={36}
+            height={36}
           />
           <h4>Rich Offline Experiences</h4>
         </li>
@@ -27,8 +27,8 @@ const Bullets = () => (
           <amp-img
             src="/static/svg/checkmark-blue.svg"
             alt="checkmark"
-            width={28}
-            height={28}
+            width={36}
+            height={36}
           />
           <h4>Periodic Background Sync</h4>
         </li>
@@ -38,8 +38,8 @@ const Bullets = () => (
           <amp-img
             src="/static/svg/checkmark-blue.svg"
             alt="checkmark"
-            width={28}
-            height={28}
+            width={36}
+            height={36}
           />
           <h4>Push Notifications</h4>
         </li>
@@ -47,8 +47,8 @@ const Bullets = () => (
           <amp-img
             src="/static/svg/checkmark-blue.svg"
             alt="checkmark"
-            width={28}
-            height={28}
+            width={36}
+            height={36}
           />
           <h4>Install to Home Screen</h4>
         </li>
@@ -56,8 +56,8 @@ const Bullets = () => (
           <amp-img
             src="/static/svg/checkmark-blue.svg"
             alt="checkmark"
-            width={28}
-            height={28}
+            width={36}
+            height={36}
           />
           <h4>Progressive Enhancement</h4>
         </li>

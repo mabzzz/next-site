@@ -154,8 +154,8 @@ export default () => (
             <amp-img
               src="/static/svg/checkmark-dark.svg"
               alt="checkmark"
-              width={28}
-              height={28}
+              width={36}
+              height={36}
             />
           </Icon>
           <h3 className="f3 fw6">Easy to Enable</h3>

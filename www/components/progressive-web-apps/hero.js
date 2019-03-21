@@ -8,8 +8,8 @@ const Bullets = () => (
         <amp-img
           src="/static/svg/checkmark-blue.svg"
           alt="checkmark"
-          width={28}
-          height={28}
+          width={36}
+          height={36}
         />
         <h4>Offline Support</h4>
       </li>
@@ -17,8 +17,8 @@ const Bullets = () => (
         <amp-img
           src="/static/svg/checkmark-blue.svg"
           alt="checkmark"
-          width={28}
-          height={28}
+          width={36}
+          height={36}
         />
         <h4>Instantaneous Page Loads</h4>
       </li>
@@ -26,8 +26,8 @@ const Bullets = () => (
         <amp-img
           src="/static/svg/checkmark-blue.svg"
           alt="checkmark"
-          width={28}
-          height={28}
+          width={36}
+          height={36}
         />
         <h4>Automatic Caching</h4>
       </li>
@@ -35,8 +35,8 @@ const Bullets = () => (
         <amp-img
           src="/static/svg/checkmark-blue.svg"
           alt="checkmark"
-          width={28}
-          height={28}
+          width={36}
+          height={36}
         />
         <h4>Superior Engagement</h4>
       </li>
