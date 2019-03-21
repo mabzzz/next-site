@@ -6,7 +6,7 @@ const Bullets = () => (
     <ul>
       <li>
         <amp-img
-          src="/static/checkmark-blue.svg"
+          src="/static/svg/checkmark-blue.svg"
           alt="checkmark"
           width={28}
           height={28}
@@ -15,7 +15,7 @@ const Bullets = () => (
       </li>
       <li>
         <amp-img
-          src="/static/checkmark-blue.svg"
+          src="/static/svg/checkmark-blue.svg"
           alt="checkmark"
           width={28}
           height={28}
@@ -24,7 +24,7 @@ const Bullets = () => (
       </li>
       <li>
         <amp-img
-          src="/static/checkmark-blue.svg"
+          src="/static/svg/checkmark-blue.svg"
           alt="checkmark"
           width={28}
           height={28}
@@ -33,7 +33,7 @@ const Bullets = () => (
       </li>
       <li>
         <amp-img
-          src="/static/checkmark-blue.svg"
+          src="/static/svg/checkmark-blue.svg"
           alt="checkmark"
           width={28}
           height={28}
@@ -108,19 +108,19 @@ export default () => (
 
         <div className="devices">
           <amp-img
-            src="/static/tablet.svg"
+            src="/static/svg/tablet.svg"
             alt="Tablet"
             width={160}
             height={220}
           />
           <amp-img
-            src="/static/desktop.svg"
+            src="/static/svg/desktop.svg"
             alt="Desktop"
             width={526.6}
             height={270}
           />
           <amp-img
-            src="/static/mobile.svg"
+            src="/static/svg/mobile.svg"
             alt="Mobile"
             width={84}
             height={170}

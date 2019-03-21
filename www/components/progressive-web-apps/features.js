@@ -7,7 +7,7 @@ const Bullets = () => (
       <div>
         <li>
           <amp-img
-            src="/static/checkmark-blue.svg"
+            src="/static/svg/checkmark-blue.svg"
             alt="checkmark"
             width={28}
             height={28}
@@ -16,7 +16,7 @@ const Bullets = () => (
         </li>
         <li>
           <amp-img
-            src="/static/checkmark-blue.svg"
+            src="/static/svg/checkmark-blue.svg"
             alt="checkmark"
             width={28}
             height={28}
@@ -25,7 +25,7 @@ const Bullets = () => (
         </li>
         <li>
           <amp-img
-            src="/static/checkmark-blue.svg"
+            src="/static/svg/checkmark-blue.svg"
             alt="checkmark"
             width={28}
             height={28}
@@ -36,7 +36,7 @@ const Bullets = () => (
       <div>
         <li>
           <amp-img
-            src="/static/checkmark-blue.svg"
+            src="/static/svg/checkmark-blue.svg"
             alt="checkmark"
             width={28}
             height={28}
@@ -45,7 +45,7 @@ const Bullets = () => (
         </li>
         <li>
           <amp-img
-            src="/static/checkmark-blue.svg"
+            src="/static/svg/checkmark-blue.svg"
             alt="checkmark"
             width={28}
             height={28}
@@ -54,7 +54,7 @@ const Bullets = () => (
         </li>
         <li>
           <amp-img
-            src="/static/checkmark-blue.svg"
+            src="/static/svg/checkmark-blue.svg"
             alt="checkmark"
             width={28}
             height={28}

@@ -21,7 +21,7 @@ export default () => (
 
     <div className="device">
       <amp-img
-        src="/static/offline-support.svg"
+        src="/static/svg/offline-support.svg"
         alt="Offline support"
         width={632}
         height={204}

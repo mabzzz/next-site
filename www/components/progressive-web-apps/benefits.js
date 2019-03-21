@@ -109,7 +109,7 @@ export default () => (
         <div className="col">
           <Icon>
             <amp-img
-              src="/static/rocket.svg"
+              src="/static/svg/rocket.svg"
               alt="rocket"
               width={26.01}
               height={25.99}
@@ -129,7 +129,7 @@ export default () => (
         <div className="col">
           <Icon>
             <amp-img
-              src="/static/wrench.svg"
+              src="/static/svg/wrench.svg"
               alt="extensible"
               width={27}
               height={26}
@@ -152,7 +152,7 @@ export default () => (
         <div className="col">
           <Icon>
             <amp-img
-              src="/static/checkmark-dark.svg"
+              src="/static/svg/checkmark-dark.svg"
               alt="checkmark"
               width={28}
               height={28}
